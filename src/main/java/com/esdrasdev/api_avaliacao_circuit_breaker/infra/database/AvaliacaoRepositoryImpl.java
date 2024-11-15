@@ -1,6 +1,12 @@
 package com.esdrasdev.api_avaliacao_circuit_breaker.infra.database;
 
+import com.esdrasdev.api_avaliacao_circuit_breaker.domain.Avaliacao;
+import com.esdrasdev.api_avaliacao_circuit_breaker.domain.AvaliacaoRepository;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 
 @Component
 public class AvaliacaoRepositoryImpl implements AvaliacaoRepository {

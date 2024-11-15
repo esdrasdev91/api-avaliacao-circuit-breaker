@@ -1,5 +1,7 @@
 package com.esdrasdev.api_avaliacao_circuit_breaker.api;
 
+import com.esdrasdev.api_avaliacao_circuit_breaker.domain.Avaliacao;
+
 public class AvaliacaoModel {
 
     private Long id;
